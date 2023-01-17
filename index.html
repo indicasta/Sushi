@@ -115,6 +115,15 @@
       .try-sushi {
         background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
       }
+      @media (max-width: 767px) {
+        .wrapper {
+          max-width: fit-content !important;
+          overflow: auto !important;
+        }
+        button {
+          text-align: center;
+        }
+      }
       .wrapper {
         width: 830px;
         padding: 0 10px;
@@ -178,8 +187,8 @@
     </style>
   </head>
   <body class="light">
-    <button class="btnTheme">Change Theme</button>
     <div class="wrapper">
+      <button class="btnTheme">Change Theme</button>
       <h1>Sushi🍣</h1>
       <h2>My Favorite Food😍</h2>
       <a
